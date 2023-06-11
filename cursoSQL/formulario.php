@@ -8,7 +8,8 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-
+$dbname = "cursosql";
+  
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 function sololetras($text){
