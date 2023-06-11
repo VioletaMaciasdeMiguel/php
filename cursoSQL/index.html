@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="estilo.css">
+<title>Formulario de registro SCIII</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<script src="script.js"></script>
+</head>
+
+<body>
+<div class="group">
+<div class="div_secundario">
+    <form method="POST" id="form" action="formulario.php">
+    <div class="div_secundario">
+    <h2><em>Formulario de Registro</em></h2>
+        <label for="nombre" class="label_secundario">Nombre<span><em>(requerido)</em></span></label><br>
+        <input type="text" id="nombre" class="input_secundario" name="nombre" class="form-input" required/><br>
+        </div>
+        <div class="div_secundario">
+        <label for="apellido" class="label_secundario">Apellido<span><em>(requerido)</em></span></label><br>
+        <input type="text" id="apellido" class="input_secundario" name="apellido" class="form-input" required/><br>
+        </div>
+        <div class="div_secundario">
+        <label for="email" class="label_secundario">Email<span><em>(requerido)</em></span></label><br>
+        <input type="email" id="email" class="input_secundario" name="email" class="form-input" required/><br>
+        </div>
+        <div class="div_secundario">
+    <input class="form-btn" name="submit" id="button" type="submit" value="Suscribirse" onclick="return todo_ok()"/>
+        </div>
+        </div>
+    </form>
+    
+</div>
+</body>
+</html>
